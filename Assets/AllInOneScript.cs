@@ -2,16 +2,12 @@ using UnityEngine;
 
 public class AllInOneScript : MonoBehaviour
 {
-    public int SomeNumber_Changed {  get; private set; }
-
-    public float MoreNumber;
-
-    public string SomeString;
+    public int SomeNumber {  get; private set; }
 
     public void SomeMethod() { }
 
-    private void Awake()
+    private void Start()
     {
-        SomeMethod();
+         SomeNumber = 1;
     }
 }
