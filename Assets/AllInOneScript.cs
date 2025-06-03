@@ -14,4 +14,8 @@ public class AllInOneScript : MonoBehaviour
     {
         SomeMethod();
     }
+    private void Start()
+    {
+         SomeNumber = 1;
+    }
 }
