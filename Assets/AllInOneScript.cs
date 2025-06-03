@@ -10,8 +10,15 @@ public class AllInOneScript : MonoBehaviour
 
     public void SomeMethod() { }
 
+
+    private void Start()
+    {
+         SomeNumber = 1;
+     }
+
     private void Awake()
     {
         SomeMethod();
+
     }
 }
